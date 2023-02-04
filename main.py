@@ -9,12 +9,20 @@ input_folder = gui.Input()
 choose_button_for_folder = gui.FolderBrowse("Choose")
 
 work_button = gui.Button("Zip")
+exit_button = gui.Button("Exit")
 
 window = gui.Window("Zip", layout=[[label_for_files, input_files, choose_button_for_files],
                                    [label_for_folder, input_folder, choose_button_for_folder],
-                                   [work_button]])
+                                   [work_button, exit_button]])
 
 while True:
     event, value = window.read()
-    
+    match event:
+        case gui.WIN_CLOSED | 'Exit':
+            break
+
+
+
+
+
 window.close()
