@@ -17,12 +17,15 @@ This app can help you to create archive(.zip). For that you choose files, folder
 
 ## 🎀How do it look?🎀
 ![image](https://user-images.githubusercontent.com/63312656/216812532-1840b807-ffcf-4eec-be5d-a57690a2eb96.png)
+
 First view
 
 ![image](https://user-images.githubusercontent.com/63312656/216812576-ad652715-af21-412e-8959-54f902061715.png)
+
 After choosing file, folder and type name of zip
 
 ![image](https://user-images.githubusercontent.com/63312656/216812605-c06dd3c9-0fae-458a-8b0a-deaef0468d31.png)
+
 After pressing the button "Zip"
 
 
